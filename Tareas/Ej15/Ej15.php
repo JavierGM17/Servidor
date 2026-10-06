@@ -10,7 +10,7 @@
     <h3>Introduce un dia de la semana </h3>
     <form action="Captura15.php" method="post">
         <label for="Dia">Dia </label>
-        <input type="text" name="Dia" id="Dia" required>
+        <input type="text" name="Dia" id="Dia" maxlength="1" required>
 
 
     </form>

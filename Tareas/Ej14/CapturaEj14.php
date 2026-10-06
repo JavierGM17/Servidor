@@ -12,7 +12,6 @@ echo Division($numero1,$numero2)."<br>";
 
 
 
-
 function Sumar($num1,$num2){
     return $num1+$num2;
 }
@@ -27,7 +26,7 @@ function Multiplicar($num1,$num2){
 
 function Division($num1,$num2){
     if($num2 == 0){
-        echo "No se puede dividir entre 0";
+        return "No se puede dividir entre 0";
     } else
         return $num1/$num2;
 }
